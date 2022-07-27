@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.031646d1.css",
+    "main.js": "/static/js/main.0b09ef95.js",
+    "static/media/link.png": "/static/media/link.4191dc1236de2697158d.png",
+    "static/media/rupee.png": "/static/media/rupee.a15d90f0f0667b6d1c10.png",
+    "static/media/zelda-apple.png": "/static/media/zelda-apple.38ac260814ed49e6edf8.png",
+    "static/media/zelda-shield.png": "/static/media/zelda-shield.76d1fd09bf0e7e787c4c.png",
+    "static/media/zelda-background-blurred.webp": "/static/media/zelda-background-blurred.ef33d454a44d4c044341.webp",
+    "static/media/zelda-bow-and-arrow.png": "/static/media/zelda-bow-and-arrow.128e972f6af99f20e35e.png",
+    "static/media/zelda-star.png": "/static/media/zelda-star.aa2a8bb04c76dc75ee5b.png",
+    "static/media/zelda-sword.png": "/static/media/zelda-sword.8c7a6706a9dcecf5240c.png",
+    "static/media/zelda-shirt.png": "/static/media/zelda-shirt.7fb5b8b72186dab42130.png",
+    "static/media/zelda-cooking-pot.png": "/static/media/zelda-cooking-pot.b0021befde867aa57b53.png",
+    "index.html": "/index.html",
+    "main.031646d1.css.map": "/static/css/main.031646d1.css.map",
+    "main.0b09ef95.js.map": "/static/js/main.0b09ef95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.031646d1.css",
+    "static/js/main.0b09ef95.js"
+  ]
+}

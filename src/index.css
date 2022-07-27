@@ -1,0 +1,182 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: rgb(255,255,255);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app-container {
+    background-image: url("./images/zelda-background-blurred.webp");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255,255,255, 0.05);
+}
+
+.footer-container {
+    background-color: rgba(255,255,255, 0.05);
+}
+
+.footer-container p {
+    margin: 30px;
+}
+
+.rupee-container, .hearts-container {
+    display: flex;
+    margin: 20px;
+}
+
+.rupee-image {
+    height: 20px;
+}
+
+.heart-container {
+    transform: scale(0.6);
+}
+
+.heart {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    animation: pulse 4s ease infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1)}
+    50% { transform: scale(1.3)}
+    100% { transform: scale(1)}
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(255,255,255);
+    padding: 10px;
+}
+
+.tab-button:disabled {
+    border-bottom: 2px solid rgba(255,255,255, 0.2);
+}
+
+.tab-button:disabled > .tab-image {
+    opacity: 0.2;
+}
+
+.tab-image {
+    height: 50px;
+}
+
+.inventory-container {
+    width: 500px;
+    margin: 30px;
+}
+
+.inventory-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.inventory-image-container {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 5px;
+}
+
+.inventory-image-container-chosen {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    background-color: rgba(12, 237, 24, 0.3);
+    margin: 5px;
+}
+
+.inventory-image {
+    height: 90px;
+    width: 90px;
+}
+
+.character-container {
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.character-info {
+    font-style: italic;
+    margin: 30px;
+}
+
+.item-description-container {
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 100%);
+    padding: 20px;
+    font-style: italic;
+
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+@keyframes move {
+    0% { left: 100vw}
+}
+
+.item-description-container h2 {
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.inventory-amount {
+    margin: 0;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+
+.weapon-update-button {
+    border: none;
+    background: transparent;
+    color: rgb(255,255,255);
+    margin: 0;
+    position: absolute;
+    left: 2px;
+    bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
